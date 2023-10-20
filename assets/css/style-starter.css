@@ -16944,6 +16944,47 @@ button.owl-next {
 /* //menu page */
 
 /* contact page */
+
+/* added style */
+.reservation{
+  padding: 90px;
+  background-color: #fd7e14;
+}
+
+.reservation form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation div{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 50%;
+  padding: 2%;
+}
+
+.reservation label{
+  color: #000;
+  font-weight: bold;
+}
+
+.reservation button{
+  background-color: transparent; 
+  border-radius: 10px; 
+  height: 50px; 
+  font-size: 150%;
+}
+
+.reservation input{
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  padding: 8px;
+}
+/* added style */
+
 .contact-info h4 {
   font-size: 20px;
   color: var(--heading-color);
