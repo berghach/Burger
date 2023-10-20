@@ -16983,6 +16983,37 @@ button.owl-next {
   border-radius: 15px;
   padding: 8px;
 }
+
+/* map */
+
+.map_res{
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mapouter{
+  padding: 8px;
+  position:relative;
+  text-align:right;
+  width:600px;
+  height:400px;
+}
+.gmap_canvas {
+  border-radius: 10px;
+  overflow:hidden;
+  background:none;
+  width:600px;
+  height:400px;
+}
+.gmap_iframe {
+  width:600px;
+  height:400px;
+}
+
+/*map*/
+
 /* added style */
 
 .contact-info h4 {
